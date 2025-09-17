@@ -4,8 +4,8 @@ import Link from "next/link";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 
-const name = "Your Name"; // <-- change this to your name
-export const siteTitle = "Next.js Sample Blog";
+const name = "Pan Academy";
+export const siteTitle = "Pan Academy — Characters";
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Character roster for the Pan Academy game"
         />
         <meta name="og:title" content={siteTitle} />
       </Head>
@@ -23,7 +23,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/profile.jpeg"
+              src="/images/profile.jpg"
               className={`${utilStyles.borderCircle} ${styles.headerHomeImage}`}
               alt={name}
             />
@@ -33,7 +33,7 @@ export default function Layout({ children, home }) {
           <>
             <Link href="/">
               <img
-                src="/images/profile.jpeg"
+                src="/images/profile.jpg"
                 className={`${utilStyles.borderCircle} ${styles.headerImage}`}
                 alt={name}
               />
@@ -57,3 +57,4 @@ export default function Layout({ children, home }) {
     </div>
   );
 }
+

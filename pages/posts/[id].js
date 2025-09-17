@@ -16,20 +16,47 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Post({ postData }) {
+  const { title, date, role, house, affinity, image } = postData;
+
   return (
     <Layout>
       <Head>
-        <title>{postData.title}</title>
+        <title>{title}</title>
       </Head>
 
       <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
-          {format(new Date(postData.date), "LLLL d, yyyy")}
+        {image && (
+          <p>
+            <img
+              src={image}
+              alt={title}
+              style={{ width: "160px", height: "160px", borderRadius: "9999px", objectFit: "cover" }}
+            />
+          </p>
+        )}
+
+        <h1 className={utilStyles.headingXl}>{title}</h1>
+
+        {(role || house) && (
+          <div className={utilStyles.lightText} style={{ marginBottom: "0.5rem" }}>
+            {role || ""}{role && house ? " · " : ""}{house || ""}
+          </div>
+        )}
+
+        {affinity && (
+          <div className={utilStyles.lightText} style={{ marginBottom: "0.75rem" }}>
+            Affinity: {affinity}
+          </div>
+        )}
+
+        <div className={utilStyles.lightText} style={{ marginBottom: "1rem" }}>
+          {format(new Date(date), "LLLL d, yyyy")}
         </div>
+
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
   );
 }
+
 

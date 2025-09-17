@@ -19,17 +19,22 @@ export default function Home({ allPostsData }) {
       </Head>
 
       <section className={utilStyles.headingMd}>
-        <p>Hello, I’m building with Next.js.</p>
-        <p>Read the posts below.</p>
+        <p>Welcome to Pan Academy — view character profiles below.</p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Characters</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, role, house }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
+              {(role || house) && (
+                <small className={utilStyles.lightText}>
+                  {role || ""}{role && house ? " · " : ""}{house || ""}
+                </small>
+              )}
+              {(role || house) && <br />}
               <small className={utilStyles.lightText}>
                 {format(new Date(date), "LLLL d, yyyy")}
               </small>
@@ -40,6 +45,7 @@ export default function Home({ allPostsData }) {
     </Layout>
   );
 }
+
 
 
 
