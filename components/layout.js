@@ -1,4 +1,3 @@
-// components/layout.js
 import Head from "next/head";
 import Link from "next/link";
 import styles from "./layout.module.css";
@@ -23,7 +22,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/profile.jpg"
+              src="/images/profile.gif"
               className={`${utilStyles.borderCircle} ${styles.headerHomeImage}`}
               alt={name}
             />
@@ -33,7 +32,7 @@ export default function Layout({ children, home }) {
           <>
             <Link href="/">
               <img
-                src="/images/profile.jpg"
+                src="/images/profile.gif"
                 className={`${utilStyles.borderCircle} ${styles.headerImage}`}
                 alt={name}
               />
