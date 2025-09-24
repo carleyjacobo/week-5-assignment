@@ -1,0 +1,68 @@
+[
+  {
+    "id": "eleanor-profile",
+    "title": "Character Profile: Eleanor",
+    "date": "2025-09-21",
+    "author": "Carley",
+    "summary": "Precise, quiet, and ruthless about clean technique. Prefers balance over flash.",
+    "readingTime": 3,
+    "tags": ["Pan Academy", "Characters", "Eleanor"],
+    "characters": ["Eleanor"],
+    "contentHtml": "<p>Eleanor keeps a neat station and a steady rhythm. She trusts scales, notes, and practice more than gut feelings. Her dorm is tidy with labeled spice tins and taped study sheets above the lamp.</p><ul><li><strong>Likes:</strong> clean flavors, careful lamination, even heat</li><li><strong>Dislikes:</strong> cloying sweet, garnish that hides weak bakes</li><li><strong>Quirk:</strong> studies late but never misses prep</li></ul><p>Under pressure she gets very calm. If a teammate wastes her time, that calm goes cold fast.</p>"
+  },
+  {
+    "id": "flan-profile",
+    "title": "Character Profile: Flan",
+    "date": "2025-09-22",
+    "author": "Carley",
+    "summary": "Warm crowd energy and quick hands. Loves tart notes and playful texture.",
+    "readingTime": 3,
+    "tags": ["Pan Academy", "Characters", "Flan"],
+    "characters": ["Flan"],
+    "contentHtml": "<p>Flan hums down the hall, pockets tasting spoons, and trades jokes for samples. His dorm has sketches taped up beside a messy mirror and a jar of toasted sugar on the desk.</p><ul><li><strong>Likes:</strong> tart berries, caramel snap, light crunch</li><li><strong>Dislikes:</strong> joyless food, flat finishes</li><li><strong>Quirk:</strong> talks to dough like it can hear him</li></ul><p>He plays to the room but he watches reactions closely. He wants people to leave smiling.</p>"
+  },
+  {
+    "id": "yuyan-profile",
+    "title": "Character Profile: Yuyan",
+    "date": "2025-09-23",
+    "author": "Carley",
+    "summary": "Careful taster with a quiet notebook. Favors floral, gentle layers.",
+    "readingTime": 3,
+    "tags": ["Pan Academy", "Characters", "Yuyan"],
+    "characters": ["Yuyan"],
+    "contentHtml": "<p>Yuyan walks the market with a small notebook and a steady pace. She asks growers about shade and soil, then writes in tiny script. She tastes slowly and only speaks when she has something exact to say.</p><ul><li><strong>Likes:</strong> stone fruit with floral notes, mild honey, soft teas</li><li><strong>Dislikes:</strong> heavy spice that buries nuance</li><li><strong>Quirk:</strong> closes her eyes for the first bite</li></ul><p>Her best bakes are simple on the surface and layered underneath.</p>"
+  },
+  {
+    "id": "jiro-profile",
+    "title": "Character Profile: Jiro",
+    "date": "2025-09-24",
+    "author": "Carley",
+    "summary": "Discipline first. Notes everything. Leads by example and expects the same.",
+    "readingTime": 3,
+    "tags": ["Pan Academy", "Characters", "Jiro"],
+    "characters": ["Jiro"],
+    "contentHtml": "<p>Jiro times proofs, checks rise through the glass, and logs results in a pocket book no one else touches. He speaks in short, exact lines and people tend to listen.</p><ul><li><strong>Likes:</strong> consistency, clean cuts, quiet kitchens</li><li><strong>Dislikes:</strong> wasted motion, sloppy plating</li><li><strong>Quirk:</strong> taps the bench twice before service</li></ul><p>He is steady until ranking day. Then the temperature in the room changes.</p>"
+  },
+  {
+    "id": "maximus-profile",
+    "title": "Character Profile: Maximus",
+    "date": "2025-09-25",
+    "author": "Carley",
+    "summary": "Bold flavor and fast hands. Bravado on the surface, soft heart underneath.",
+    "readingTime": 3,
+    "tags": ["Pan Academy", "Characters", "Maximus"],
+    "characters": ["Maximus"],
+    "contentHtml": "<p>Maximus moves quick, grins quicker, and never backs away from heat. He will swap a cracked bowl for a first year without making a scene, then act like he did nothing.</p><ul><li><strong>Likes:</strong> citrus, spice, shiny glazes</li><li><strong>Dislikes:</strong> timid seasoning, safe choices</li><li><strong>Quirk:</strong> counts down under his breath when sugar hits hard crack</li></ul><p>When he locks onto a goal, the whole lab feels it.</p>"
+  },
+  {
+    "id": "jules-profile",
+    "title": "Character Profile: Jules",
+    "date": "2025-09-26",
+    "author": "Carley",
+    "summary": "Showman with heart. Loves contrast and a plate that tells a story.",
+    "readingTime": 3,
+    "tags": ["Pan Academy", "Characters", "Jules"],
+    "characters": ["Jules"],
+    "contentHtml": "<p>Jules turns labs into small stages. He sketches ideas on tape scraps, tests three versions, then picks the one that makes people lean in. His dorm door has ribbon samples pinned in a row.</p><ul><li><strong>Likes:</strong> bright spice, layered textures, clean geometry</li><li><strong>Dislikes:</strong> beige on beige, flavor without a point</li><li><strong>Quirk:</strong> plates with a steady hum when an idea clicks</li></ul><p>He wants the first bite to surprise and the last bite to feel inevitable.</p>"
+  }
+]
