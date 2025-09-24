@@ -8,6 +8,10 @@
     "readingTime": 3,
     "tags": ["Pan Academy", "Characters", "Eleanor"],
     "characters": ["Eleanor"],
+    "role": "Student",
+    "house": "Acacia",
+    "affinity": "Precision",
+    "image": "/images/eleanor.png",
     "contentHtml": "<p>Eleanor keeps a neat station and a steady rhythm. She trusts scales, notes, and practice more than gut feelings. Her dorm is tidy with labeled spice tins and taped study sheets above the lamp.</p><ul><li><strong>Likes:</strong> clean flavors, careful lamination, even heat</li><li><strong>Dislikes:</strong> cloying sweet, garnish that hides weak bakes</li><li><strong>Quirk:</strong> studies late but never misses prep</li></ul><p>Under pressure she gets very calm. If a teammate wastes her time, that calm goes cold fast.</p>"
   },
   {
@@ -19,6 +23,10 @@
     "readingTime": 3,
     "tags": ["Pan Academy", "Characters", "Flan"],
     "characters": ["Flan"],
+    "role": "Student",
+    "house": "Rowan",
+    "affinity": "Playfulness",
+    "image": "/images/flan.png",
     "contentHtml": "<p>Flan hums down the hall, pockets tasting spoons, and trades jokes for samples. His dorm has sketches taped up beside a messy mirror and a jar of toasted sugar on the desk.</p><ul><li><strong>Likes:</strong> tart berries, caramel snap, light crunch</li><li><strong>Dislikes:</strong> joyless food, flat finishes</li><li><strong>Quirk:</strong> talks to dough like it can hear him</li></ul><p>He plays to the room but he watches reactions closely. He wants people to leave smiling.</p>"
   },
   {
@@ -30,6 +38,10 @@
     "readingTime": 3,
     "tags": ["Pan Academy", "Characters", "Yuyan"],
     "characters": ["Yuyan"],
+    "role": "Student",
+    "house": "Willow",
+    "affinity": "Subtlety",
+    "image": "/images/yuyan.png",
     "contentHtml": "<p>Yuyan walks the market with a small notebook and a steady pace. She asks growers about shade and soil, then writes in tiny script. She tastes slowly and only speaks when she has something exact to say.</p><ul><li><strong>Likes:</strong> stone fruit with floral notes, mild honey, soft teas</li><li><strong>Dislikes:</strong> heavy spice that buries nuance</li><li><strong>Quirk:</strong> closes her eyes for the first bite</li></ul><p>Her best bakes are simple on the surface and layered underneath.</p>"
   },
   {
@@ -41,6 +53,10 @@
     "readingTime": 3,
     "tags": ["Pan Academy", "Characters", "Jiro"],
     "characters": ["Jiro"],
+    "role": "Student",
+    "house": "Cedar",
+    "affinity": "Discipline",
+    "image": "/images/jiro.png",
     "contentHtml": "<p>Jiro times proofs, checks rise through the glass, and logs results in a pocket book no one else touches. He speaks in short, exact lines and people tend to listen.</p><ul><li><strong>Likes:</strong> consistency, clean cuts, quiet kitchens</li><li><strong>Dislikes:</strong> wasted motion, sloppy plating</li><li><strong>Quirk:</strong> taps the bench twice before service</li></ul><p>He is steady until ranking day. Then the temperature in the room changes.</p>"
   },
   {
@@ -52,6 +68,10 @@
     "readingTime": 3,
     "tags": ["Pan Academy", "Characters", "Maximus"],
     "characters": ["Maximus"],
+    "role": "Student",
+    "house": "Hawthorn",
+    "affinity": "Boldness",
+    "image": "/images/maximus.png",
     "contentHtml": "<p>Maximus moves quick, grins quicker, and never backs away from heat. He will swap a cracked bowl for a first year without making a scene, then act like he did nothing.</p><ul><li><strong>Likes:</strong> citrus, spice, shiny glazes</li><li><strong>Dislikes:</strong> timid seasoning, safe choices</li><li><strong>Quirk:</strong> counts down under his breath when sugar hits hard crack</li></ul><p>When he locks onto a goal, the whole lab feels it.</p>"
   },
   {
@@ -63,6 +83,26 @@
     "readingTime": 3,
     "tags": ["Pan Academy", "Characters", "Jules"],
     "characters": ["Jules"],
+    "role": "Student",
+    "house": "Maple",
+    "affinity": "Showmanship",
+    "image": "/images/jules.png",
     "contentHtml": "<p>Jules turns labs into small stages. He sketches ideas on tape scraps, tests three versions, then picks the one that makes people lean in. His dorm door has ribbon samples pinned in a row.</p><ul><li><strong>Likes:</strong> bright spice, layered textures, clean geometry</li><li><strong>Dislikes:</strong> beige on beige, flavor without a point</li><li><strong>Quirk:</strong> plates with a steady hum when an idea clicks</li></ul><p>He wants the first bite to surprise and the last bite to feel inevitable.</p>"
+  },
+  {
+    "id": "sofie-profile",
+    "title": "Character Profile: Sofie",
+    "date": "2025-09-27",
+    "author": "Carley",
+    "summary": "Curious, stubborn, and quick to test a new ratio. Keeps the last bite for submission.",
+    "readingTime": 3,
+    "tags": ["Pan Academy", "Characters", "Sofie"],
+    "characters": ["Sofie"],
+    "role": "Student",
+    "house": "Laurel",
+    "affinity": "Experimentation",
+    "image": "/images/sofie.png",
+    "contentHtml": "<p>Sofie is the axis the assignments turn on—curious, stubborn, and quick to test a new ratio. She burns dinner once and takes notes on why. She shares a bite when it counts and keeps the last one for submission.</p><ul><li><strong>Likes:</strong> clean vanilla, warm spice, balanced crumb</li><li><strong>Dislikes:</strong> soggy bottoms, cloying finishes, wasted chances</li><li><strong>Quirk:</strong> counts the stirs out loud when she gets nervous</li></ul><p>She is still learning what to trust: the recipe, her hands, or the look on a friend’s face after a taste.</p>"
   }
 ]
+

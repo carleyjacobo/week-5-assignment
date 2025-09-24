@@ -2,54 +2,36 @@ import Head from "next/head";
 import Link from "next/link";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
-import { getSortedPostsData } from "../lib/posts";
+import { getSortedPostsData } from "../lib/posts-json";
 import { format } from "date-fns";
 
 export async function getStaticProps() {
-  // Get the list of all posts and sort them by date
   const allPostsData = getSortedPostsData();
-  // Pass the list as props to the Home component
   return { props: { allPostsData } };
 }
 
 export default function Home({ allPostsData }) {
-  // Render the home page layout and content
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.sectionCard}`}>
-        <p>Welcome to Pan Academy — view character profiles below.</p>
-      </section>
-
-      <section
-        className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}
-        style={{ marginTop: "1rem" }}
-      >
-        <h2 className={utilStyles.headingLg}>Characters</h2>
+      <section className={utilStyles.headingMd}>
+        <h2 className={utilStyles.headingLg}>Posts</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, title, role, house }) => (
-            <li
-              className={`${utilStyles.listItem} ${utilStyles.listItemCard}`}
-              key={id} // Unique key for each list item
-            >
+          {allPostsData.map(({ id, date, title, summary }) => (
+            <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
-              <br />
-              {(role || house) && (
+              {date && (
                 <>
-                  <small
-                    className={`${utilStyles.lightText} ${utilStyles.metaText}`}
-                  >
-                    {role || ""} 
-                    {role && house ? " · " : ""}
-                    {house || ""}
-                  </small>
                   <br />
+                  <small className={utilStyles.lightText}>
+                    <time dateTime={date}>{format(new Date(date), "PPP")}</time>
+                  </small>
                 </>
               )}
-              
+              {summary && <p className={utilStyles.lightText}>{summary}</p>}
             </li>
           ))}
         </ul>
@@ -57,6 +39,7 @@ export default function Home({ allPostsData }) {
     </Layout>
   );
 }
+
 
 
 
